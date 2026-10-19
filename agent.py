@@ -19,7 +19,7 @@ MAX_STEPS = 6  # hard cap on model calls: bounds cost and latency, stops runaway
 
 SYSTEM_PROMPT = (
     "You are a precise assistant. Use the tools for anything involving today's date "
-    "or counting days. Never guess today's date. Keep final answers short."
+    "or counting days or print what day it is. Never guess today's date. Keep final answers short."
 )
 
 
