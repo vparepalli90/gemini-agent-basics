@@ -25,7 +25,7 @@ def days_between(start_date: str, end_date: str) -> dict:
 def day_of_week(date_str: str) -> dict:
     """Returns the weekday for a given date."""
     d = date.fromisoformat(date_str)
-    return {"week": d.weekday()}
+    return {"day_of_week": d.strftime("%A")}
 
 TOOL_DECLARATIONS = [
     {
